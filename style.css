@@ -1,1 +1,63 @@
 /* TODO(you): Write the CSS to finish the assignment! */
+
+.choice-grid{
+  display: flex;
+  flex-flow: wrap;
+}
+.choice-grid>div{
+  box-sizing: border-box;
+  width: 32.5%;
+  margin-top: 20px;
+  border: 1px solid #dcdcdc;
+  background-color: #f4f4f4;
+  /* padding: 10px 0 10px 10px; */
+  padding: 10px;
+  margin-right: 1.25%;
+}
+.choice-grid>div:nth-last-child(1){margin-bottom: 20px;}
+.choice-grid>div:nth-last-child(2){margin-bottom: 20px;}
+.choice-grid>div:nth-last-child(3){margin-bottom: 20px;}
+.choice-grid>div:nth-child(3n){
+  margin-right: 0px;
+}
+div>img:first-child{
+  width: 100%;
+  max-height: auto;
+  /* background-size: cover; */
+}
+div>img{
+  display: block;
+}
+div[class="checkbox"]{
+  width: 20px;
+}
+#cecece
+@media (max-width: 700px) {
+  header>div>span{
+    display: none;
+  }
+  article{
+    width: 95%;
+  }
+}
+@media (max-width: 500px) {
+  .choice-grid>div{
+    width: 49%;
+  }
+  .choice-grid>div:nth-child(2n){
+    margin-right: 0px;
+  }
+}
+#submit{
+  background-color: #cecece;
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  margin-top: 18px;
+}
+#submit:hover{
+  background-color: #e0e0e0;
+}
+.submit_panel{
+  margin-bottom: 20px;
+}
