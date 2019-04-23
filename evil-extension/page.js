@@ -10,7 +10,6 @@ const MATCH_LIST = {
   'THEY\'RE': 'THERE'
 };
 
-function transformTextNodes(node) {
   // TODO(you): Implement this function! See HW spec for details.
 }
 
