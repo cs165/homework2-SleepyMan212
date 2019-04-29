@@ -53,6 +53,9 @@ div[class="checkbox"]{
   height: 50px;
   font-weight: bold;
   margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #submit:hover{
   background-color: #e0e0e0;
